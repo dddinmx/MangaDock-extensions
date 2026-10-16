@@ -17,12 +17,12 @@
     {
       "name": "漫小肆",
       "module": "mxs",
-      "file": "apk/tachiyomi-zh.mangadockmxs-v1.4.1.apk",
-      "bytes": 31037,
-      "sha256": "65660d8d581f571a045d4688be89875507737a847b8cf7649ad32f3210a571c7",
+      "file": "apk/tachiyomi-zh.mangadockmxs-v1.4.3.apk",
+      "bytes": 31147,
+      "sha256": "e6fd8404597685e2a0795a39f9c9d96315c536c517afe90808efea4a5bb4a754",
       "certificate_sha256": "a3c69d1795e63b044b67c01197d9551cfc5ad5f6d46c496598cea4a8e1c3255f",
       "source_id": "915575726816658624",
-      "defined_classes": 16,
+      "defined_classes": 15,
       "signature_verified": true,
       "live_page_parser_verified": true
     },
@@ -76,7 +76,7 @@
     }
   ],
   "tests": {
-    "total": 31,
+    "total": 35,
     "failures": 0,
     "skipped": 0
   },

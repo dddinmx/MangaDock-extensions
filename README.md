@@ -53,7 +53,7 @@ https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/index.min.js
 | 包子漫画.org | [baozimh.org](https://baozimh.org) | 1.4.1 | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockbaozimhorg-v1.4.1.apk) | 国内网络 |
 | 漫画柜 | [www.manhuagui.com](https://www.manhuagui.com) | 1.4.1 | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockmanhuagui-v1.4.1.apk) | **国外网络** |
 | 嬉皮漫画 | [m.hipmh.com](https://m.hipmh.com) | 1.4.4 | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockhipmh-v1.4.4.apk) | **国外网络** |
-| 漫小肆 | [mxs12.cc](https://mxs12.cc) | 1.4.1 | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockmxs-v1.4.1.apk) | **国外网络** |
+| 漫小肆 | [mxs12.cc](https://mxs12.cc) | 1.4.3 | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockmxs-v1.4.3.apk) | **国外网络** |
 | 卡拉漫画 | [www.kalamanhua.com](https://www.kalamanhua.com) | 1.4.1 | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockkalamanhua-v1.4.1.apk) | 国内网络 |
 <!-- sources:end -->
 
@@ -91,3 +91,11 @@ https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/index.min.js
 - [Tachimanga 扩展仓库说明](https://tachimanga.app/help/guides/repositories.html)
 - [当前仓库索引](index.json)
 - [问题反馈](https://github.com/dddinmx/MangaDock-extensions/issues)
+
+## 更新记录
+
+### 2026-10-16 · 漫小肆 1.4.3
+
+- 修复手机版作品页进入后提示“未解析到漫画详情”的问题。
+- 补齐手机版标题、简介、作者、封面、分类与连载状态解析，兼容桌面版页面。
+- 通过 6 项回归测试，并实测多部作品及首章图片请求。可在扩展仓库中刷新更新。
