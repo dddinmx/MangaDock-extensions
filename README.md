@@ -55,7 +55,7 @@ https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/index.min.js
 | 嬉皮漫画 | [m.hipmh.com](https://m.hipmh.com) | 1.4.4 | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockhipmh-v1.4.4.apk) | **国外网络** |
 | 漫小肆 | [mxs12.cc](https://mxs12.cc) | 1.4.3 | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockmxs-v1.4.3.apk) | **国外网络** |
 | 卡拉漫画 | [www.kalamanhua.com](https://www.kalamanhua.com) | 1.4.1 | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockkalamanhua-v1.4.1.apk) | 国内网络 |
-| 包子漫画.cn | [www.baozimh.com](https://www.baozimh.com) | 1.4.1 | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockbaozimhcn-v1.4.1.apk) | 视网络环境而定 |
+| 包子漫画.com | [www.baozimh.com](https://www.baozimh.com) | 1.4.1 | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockbaozimhcn-v1.4.1.apk) | **国外网络** |
 <!-- sources:end -->
 
 ## 客户端兼容
