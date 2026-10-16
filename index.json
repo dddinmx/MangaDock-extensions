@@ -40,10 +40,10 @@
   {
     "name": "Tachiyomi: 包子漫画.org",
     "pkg": "eu.kanade.tachiyomi.extension.zh.mangadockbaozimhorg",
-    "apk": "tachiyomi-zh.mangadockbaozimhorg-v1.4.1.apk",
+    "apk": "tachiyomi-zh.mangadockbaozimhorg-v1.4.3.apk",
     "lang": "zh",
-    "code": 1,
-    "version": "1.4.1",
+    "code": 3,
+    "version": "1.4.3",
     "nsfw": 0,
     "contentWarning": 1,
     "sources": [

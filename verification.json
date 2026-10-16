@@ -29,9 +29,9 @@
     {
       "name": "包子漫画.org",
       "module": "baozimhorg",
-      "file": "apk/tachiyomi-zh.mangadockbaozimhorg-v1.4.1.apk",
-      "bytes": 29231,
-      "sha256": "dfe26d22afe015d6360200077b15e07e27ff4e8e36abf92f37e9fc4dc11540a0",
+      "file": "apk/tachiyomi-zh.mangadockbaozimhorg-v1.4.3.apk",
+      "bytes": 31416,
+      "sha256": "acab7753f800757e416c9733fa5f983e340ab11fa0e63926f7ce1842f7700dab",
       "certificate_sha256": "a3c69d1795e63b044b67c01197d9551cfc5ad5f6d46c496598cea4a8e1c3255f",
       "source_id": "2513440399339955931",
       "defined_classes": 17,
@@ -76,7 +76,7 @@
     }
   ],
   "tests": {
-    "total": 35,
+    "total": 41,
     "failures": 0,
     "skipped": 0
   },
