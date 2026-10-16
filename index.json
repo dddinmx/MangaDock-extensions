@@ -131,5 +131,24 @@
         "versionId": 1
       }
     ]
+  },
+  {
+    "name": "Tachiyomi: 番茄漫画",
+    "pkg": "eu.kanade.tachiyomi.extension.zh.mangadockfanqie",
+    "apk": "tachiyomi-zh.mangadockfanqie-v1.4.1.apk",
+    "lang": "zh",
+    "code": 1,
+    "version": "1.4.1",
+    "nsfw": 0,
+    "contentWarning": 1,
+    "sources": [
+      {
+        "name": "番茄漫画",
+        "lang": "zh",
+        "id": "7793459122584111744",
+        "baseUrl": "https://fanqienovel.com",
+        "versionId": 1
+      }
+    ]
   }
 ]

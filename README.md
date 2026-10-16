@@ -56,6 +56,7 @@ https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/index.min.js
 | 漫小肆 | [mxs12.cc](https://mxs12.cc) | 1.4.3 | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockmxs-v1.4.3.apk) | **国外网络** |
 | 卡拉漫画 | [www.kalamanhua.com](https://www.kalamanhua.com) | 1.4.1 | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockkalamanhua-v1.4.1.apk) | 国内网络 |
 | 包子漫画.com | [www.baozimh.com](https://www.baozimh.com) | 1.4.1 | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockbaozimhcn-v1.4.1.apk) | **国外网络** |
+| 番茄漫画 | [fanqienovel.com](https://fanqienovel.com) | 1.4.1 | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockfanqie-v1.4.1.apk) | 国内网络 |
 <!-- sources:end -->
 
 ## 客户端兼容
@@ -120,3 +121,10 @@ https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/index.min.js
 - 支持列表分页、搜索、最新上架、作品简介、完整章节目录和漫画图片。
 - 自动完成源站浏览器验证并复用会话，减少重复验证。
 - 通过 10 项回归测试；实测《三体》《一人之下》《绍宋》的详情、目录、封面及章节图片。客户端导入与阅读仍需设备实测。
+
+### 2026-10-16 · 番茄漫画 1.4.1
+
+- 新增独立的 API 1.4 扩展，支持按漫画名、作品 ID 或作品链接搜索，以及简介、目录、封面和正文图片读取。
+- 本地直接读取，无需额外配置服务器；首页展示漫画检索结果，暂不提供独立的最近更新页。
+- 发布包启用代码混淆、协议字符串保护与调试信息清理；仅发布 APK，不公开番茄算法源码或混淆映射。
+- 通过 15 项回归测试，并实测《同居只为攻略你》《叛逆小厨娘》《我的右眼是神级计算机》的目录、封面和章节首尾图片；Tachimanga 设备导入与阅读仍待实测。
