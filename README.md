@@ -51,7 +51,7 @@ https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/index.min.js
 | --- | --- | --- | --- | --- |
 | 瓜子漫画 | [www.guazimanhua.com](https://www.guazimanhua.com) | 1.4.1 | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockguazimanhua-v1.4.1.apk) | 国内网络 |
 | 包子漫画.org | [baozimh.org](https://baozimh.org) | 1.4.3 | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockbaozimhorg-v1.4.3.apk) | 国内网络 |
-| 漫画柜 | [www.manhuagui.com](https://www.manhuagui.com) | 1.4.1 | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockmanhuagui-v1.4.1.apk) | **国外网络** |
+| 漫画柜 | [www.manhuagui.com](https://www.manhuagui.com) | 1.4.3 | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockmanhuagui-v1.4.3.apk) | **国外网络** |
 | 嬉皮漫画 | [m.hipmh.com](https://m.hipmh.com) | 1.4.4 | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockhipmh-v1.4.4.apk) | **国外网络** |
 | 漫小肆 | [mxs12.cc](https://mxs12.cc) | 1.4.3 | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockmxs-v1.4.3.apk) | **国外网络** |
 | 卡拉漫画 | [www.kalamanhua.com](https://www.kalamanhua.com) | 1.4.1 | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockkalamanhua-v1.4.1.apk) | 国内网络 |
@@ -106,3 +106,9 @@ https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/index.min.js
 - 修复热门、更新列表分页，支持继续加载后续漫画；同步修正搜索地址及搜索分页。
 - 简介、作者和封面直接从作品页读取，减少重复拉取整本章节数据的请求。
 - 通过 9 项回归测试，可在扩展仓库中刷新更新。
+
+### 2026-10-16 · 漫画柜 1.4.3
+
+- 修复手机浏览器请求被跳转到不可用的 HTTP 手机版，导致首页打不开的问题。
+- 漫画柜请求改用桌面浏览器身份，实测首页、更新、搜索与作品详情均直接返回 200。
+- 通过 3 项回归测试，可在扩展仓库中刷新更新。

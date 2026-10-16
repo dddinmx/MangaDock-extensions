@@ -53,12 +53,12 @@
     {
       "name": "漫画柜",
       "module": "manhuagui",
-      "file": "apk/tachiyomi-zh.mangadockmanhuagui-v1.4.1.apk",
-      "bytes": 38220,
-      "sha256": "abb44a80afd8ef529417e3381b349dbeece91d17f553b4f6cce43d1a8d8521da",
+      "file": "apk/tachiyomi-zh.mangadockmanhuagui-v1.4.3.apk",
+      "bytes": 38432,
+      "sha256": "af3a283af1d5db74a362625e24fb352eddd8095dac0768c3a68d35cedef1c7e1",
       "certificate_sha256": "a3c69d1795e63b044b67c01197d9551cfc5ad5f6d46c496598cea4a8e1c3255f",
       "source_id": "4509695705513537138",
-      "defined_classes": 19,
+      "defined_classes": 20,
       "signature_verified": true,
       "live_page_parser_verified": true
     },

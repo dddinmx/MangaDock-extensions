@@ -78,10 +78,10 @@
   {
     "name": "Tachiyomi: 漫画柜",
     "pkg": "eu.kanade.tachiyomi.extension.zh.mangadockmanhuagui",
-    "apk": "tachiyomi-zh.mangadockmanhuagui-v1.4.1.apk",
+    "apk": "tachiyomi-zh.mangadockmanhuagui-v1.4.3.apk",
     "lang": "zh",
-    "code": 1,
-    "version": "1.4.1",
+    "code": 3,
+    "version": "1.4.3",
     "nsfw": 0,
     "contentWarning": 1,
     "sources": [
