@@ -1,0 +1,87 @@
+{
+  "target_api": "Tachiyomi 1.4",
+  "version": "1.4.4",
+  "apks": [
+    {
+      "name": "瓜子漫画",
+      "module": "guazimanhua",
+      "file": "apk/tachiyomi-zh.mangadockguazimanhua-v1.4.1.apk",
+      "bytes": 29098,
+      "sha256": "20111a1585c29f3c7b718b7a30ddb55f15b326a5f6cebecd03c714ad905b15ae",
+      "certificate_sha256": "a3c69d1795e63b044b67c01197d9551cfc5ad5f6d46c496598cea4a8e1c3255f",
+      "source_id": "2847818425011085076",
+      "defined_classes": 17,
+      "signature_verified": true,
+      "live_page_parser_verified": true
+    },
+    {
+      "name": "漫小肆",
+      "module": "mxs",
+      "file": "apk/tachiyomi-zh.mangadockmxs-v1.4.1.apk",
+      "bytes": 31037,
+      "sha256": "65660d8d581f571a045d4688be89875507737a847b8cf7649ad32f3210a571c7",
+      "certificate_sha256": "a3c69d1795e63b044b67c01197d9551cfc5ad5f6d46c496598cea4a8e1c3255f",
+      "source_id": "915575726816658624",
+      "defined_classes": 16,
+      "signature_verified": true,
+      "live_page_parser_verified": true
+    },
+    {
+      "name": "包子漫画.org",
+      "module": "baozimhorg",
+      "file": "apk/tachiyomi-zh.mangadockbaozimhorg-v1.4.1.apk",
+      "bytes": 29231,
+      "sha256": "dfe26d22afe015d6360200077b15e07e27ff4e8e36abf92f37e9fc4dc11540a0",
+      "certificate_sha256": "a3c69d1795e63b044b67c01197d9551cfc5ad5f6d46c496598cea4a8e1c3255f",
+      "source_id": "2513440399339955931",
+      "defined_classes": 17,
+      "signature_verified": true,
+      "live_page_parser_verified": true
+    },
+    {
+      "name": "嬉皮漫画",
+      "module": "hipmh",
+      "file": "apk/tachiyomi-zh.mangadockhipmh-v1.4.4.apk",
+      "bytes": 34765,
+      "sha256": "6f55aa656c5bdd2b4e182be9ffe56edb98282ac9642c473d84b4f9645b11a449",
+      "certificate_sha256": "a3c69d1795e63b044b67c01197d9551cfc5ad5f6d46c496598cea4a8e1c3255f",
+      "source_id": "4170853696746265456",
+      "defined_classes": 28,
+      "signature_verified": true,
+      "live_page_parser_verified": true
+    },
+    {
+      "name": "漫画柜",
+      "module": "manhuagui",
+      "file": "apk/tachiyomi-zh.mangadockmanhuagui-v1.4.1.apk",
+      "bytes": 38220,
+      "sha256": "abb44a80afd8ef529417e3381b349dbeece91d17f553b4f6cce43d1a8d8521da",
+      "certificate_sha256": "a3c69d1795e63b044b67c01197d9551cfc5ad5f6d46c496598cea4a8e1c3255f",
+      "source_id": "4509695705513537138",
+      "defined_classes": 19,
+      "signature_verified": true,
+      "live_page_parser_verified": true
+    },
+    {
+      "name": "卡拉漫画",
+      "module": "kalamanhua",
+      "file": "apk/tachiyomi-zh.mangadockkalamanhua-v1.4.1.apk",
+      "bytes": 33717,
+      "sha256": "4ded093eb29d44d323a157f4cb6ef475a894b417a1c9cb81cf62a5ffdb51083e",
+      "certificate_sha256": "a3c69d1795e63b044b67c01197d9551cfc5ad5f6d46c496598cea4a8e1c3255f",
+      "source_id": "8821044750857838761",
+      "defined_classes": 20,
+      "signature_verified": true,
+      "live_page_parser_verified": false
+    }
+  ],
+  "tests": {
+    "total": 31,
+    "failures": 0,
+    "skipped": 0
+  },
+  "limitations": [
+    "Tachimanga device import and reading have not been tested.",
+    "Kalamanhua live origin returns HTTP 403; parser contract tests only."
+  ]
+}
