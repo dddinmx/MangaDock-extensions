@@ -1,144 +1,127 @@
-<p align="center">
-  <img src="assets/banner.jpg" width="100%" alt="中文漫画源扩展仓库 · Tachimanga / Tachiyomi / Mihon · Chinese Manga Extensions">
-</p>
+# 中文漫画源扩展指南
 
-<p align="center">
-  <strong>六个漫画站，一次添加，按需安装。</strong><br>
-  <sub>独立漫画源 APK · 固定仓库地址 · 客户端内安装与更新</sub>
-</p>
+本仓库提供面向 **Tachimanga、Tachiyomi 和兼容版本 Mihon** 的中文漫画源扩展 APK。每个扩展对应一个漫画站点，可通过固定仓库地址分别安装和更新。
 
-<p align="center">
-  <a href="#install">添加仓库</a> &nbsp;·&nbsp;
-  <a href="#sources">漫画源与下载</a> &nbsp;·&nbsp;
-  <a href="#compatibility">客户端兼容</a> &nbsp;·&nbsp;
-  <a href="https://github.com/dddinmx/MangaDock-extensions/issues">问题反馈</a>
-</p>
+Chinese manga / manhua source APK extensions for Tachimanga, Tachiyomi and compatible Mihon versions.
 
-# 中文漫画源扩展仓库
+## 目录
 
-面向 **Tachimanga、Tachiyomi 和兼容版本 Mihon** 的中文漫画源扩展仓库，集中提供瓜子漫画、包子漫画.org、漫画柜、嬉皮漫画、漫小肆和卡拉漫画的独立 APK。添加一个扩展仓库地址，即可在阅读器中按需安装漫画插件、获取更新，方便测试漫画搜索、作品简介、章节列表和阅读功能。
+1. [使用前准备](#使用前准备)
+2. [安装扩展](#安装扩展)
+   - [添加仓库](#添加仓库)
+   - [选择漫画源](#选择漫画源)
+   - [手动安装](#手动安装)
+3. [漫画源列表](#漫画源列表)
+4. [客户端兼容](#客户端兼容)
+5. [更新扩展](#更新扩展)
+6. [常见问题](#常见问题)
+7. [测试状态](#测试状态)
+8. [相关文档](#相关文档)
 
-A **Chinese manga / manhua source repository** for **Tachimanga, Tachiyomi and compatible Mihon versions**. Install and update independent **APK extensions** from a single repository URL.
+## 使用前准备
 
-<a id="install"></a>
+- 已安装 Tachimanga，或支持 API 1.4 扩展的 Tachiyomi / Mihon 版本。
+- 设备可以访问 GitHub 下载地址和所选漫画源站。
 
-## 添加一次，以后在客户端更新
+当前发布包使用 **API 1.4**。安装前请确认阅读器仍支持这一扩展规范，具体范围见[客户端兼容](#客户端兼容)。
 
-**复制仓库地址：**
+## 安装扩展
+
+### 添加仓库
+
+复制以下仓库地址：
 
 ```text
 https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/index.min.json
 ```
 
-1. 在 Tachimanga 中进入「浏览 → 扩展 → 扩展仓库」，添加上面的地址。不同客户端版本的入口名称可能略有不同。
-2. 刷新扩展列表，选择要使用的漫画源并安装。
-3. 后续仓库发布新版后，在客户端刷新并更新对应扩展即可。
+在 Tachimanga 中：
 
-使用 Tachiyomi / Mihon 时，请先查看下方兼容范围；支持扩展仓库的版本可添加同一地址，也可使用漫画源卡片中的 APK 下载链接。
+1. 打开「浏览」页面，进入「扩展」。
+2. 找到「扩展仓库」，添加上面的地址。
+3. 返回扩展列表并刷新。
 
-<p>
-  <a href="https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/index.min.json">打开安装索引 ↗</a>
-  &nbsp;·&nbsp;
-  <a href="index.json">查看版本清单 ↗</a>
-</p>
+不同客户端版本的入口名称可能略有不同。Tachiyomi / Mihon 若支持自定义扩展仓库，可添加同一地址。
 
-<a id="sources"></a>
+### 选择漫画源
 
-## 六个独立漫画源
+1. 在扩展列表中找到要使用的漫画源并安装。
+2. 返回漫画源列表，打开对应站点。
+3. 搜索漫画或浏览列表，进入作品后加载简介和章节。
 
-每个 APK 对应一个站点，可分别安装、更新和测试。
+各漫画源独立安装，按需要选择即可。
+
+### 手动安装
+
+也可从下方[漫画源列表](#漫画源列表)下载单个 APK。在 Tachimanga 的「浏览 → 扩展」页面点击右上角「+」，选择下载的文件进行导入。
+
+## 漫画源列表
 
 <!-- sources:start -->
-<table>
-  <tr>
-    <td align="center" width="33%">
-      <br><img src="icon/eu.kanade.tachiyomi.extension.zh.mangadockguazimanhua.png" width="44" height="44" alt="瓜子漫画"><br><br>
-      <strong>瓜子漫画</strong><br>
-      <sub>Guazimanhua</sub><br><br>
-      <a href="https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockguazimanhua-v1.4.1.apk">下载 APK · 1.4.1</a><br><br>
-    </td>
-    <td align="center" width="33%">
-      <br><img src="icon/eu.kanade.tachiyomi.extension.zh.mangadockbaozimhorg.png" width="44" height="44" alt="包子漫画.org"><br><br>
-      <strong>包子漫画.org</strong><br>
-      <sub>Baozimh.org</sub><br><br>
-      <a href="https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockbaozimhorg-v1.4.1.apk">下载 APK · 1.4.1</a><br><br>
-    </td>
-    <td align="center" width="33%">
-      <br><img src="icon/eu.kanade.tachiyomi.extension.zh.mangadockmanhuagui.png" width="44" height="44" alt="漫画柜"><br><br>
-      <strong>漫画柜</strong><br>
-      <sub>Manhuagui</sub><br><br>
-      <a href="https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockmanhuagui-v1.4.1.apk">下载 APK · 1.4.1</a><br><br>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="33%">
-      <br><img src="icon/eu.kanade.tachiyomi.extension.zh.mangadockhipmh.png" width="44" height="44" alt="嬉皮漫画"><br><br>
-      <strong>嬉皮漫画</strong><br>
-      <sub>Hipmh</sub><br><br>
-      <a href="https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockhipmh-v1.4.4.apk">下载 APK · 1.4.4</a><br><br>
-    </td>
-    <td align="center" width="33%">
-      <br><img src="icon/eu.kanade.tachiyomi.extension.zh.mangadockmxs.png" width="44" height="44" alt="漫小肆"><br><br>
-      <strong>漫小肆</strong><br>
-      <sub>Manxiaosi · MXS</sub><br><br>
-      <a href="https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockmxs-v1.4.1.apk">下载 APK · 1.4.1</a><br><br>
-    </td>
-    <td align="center" width="33%">
-      <br><img src="icon/eu.kanade.tachiyomi.extension.zh.mangadockkalamanhua.png" width="44" height="44" alt="卡拉漫画"><br><br>
-      <strong>卡拉漫画</strong><br>
-      <sub>Kalamanhua</sub><br><br>
-      <a href="https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockkalamanhua-v1.4.1.apk">下载 APK · 1.4.1</a><br><br>
-    </td>
-  </tr>
-</table>
+| 漫画源 | 站点 | 扩展版本 | APK |
+| --- | --- | --- | --- |
+| 瓜子漫画 | [www.guazimanhua.com](https://www.guazimanhua.com) | 1.4.1 | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockguazimanhua-v1.4.1.apk) |
+| 包子漫画.org | [baozimh.org](https://baozimh.org) | 1.4.1 | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockbaozimhorg-v1.4.1.apk) |
+| 漫画柜 | [www.manhuagui.com](https://www.manhuagui.com) | 1.4.1 | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockmanhuagui-v1.4.1.apk) |
+| 嬉皮漫画 | [m.hipmh.com](https://m.hipmh.com) | 1.4.4 | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockhipmh-v1.4.4.apk) |
+| 漫小肆 | [mxs12.cc](https://mxs12.cc) | 1.4.1 | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockmxs-v1.4.1.apk) |
+| 卡拉漫画 | [www.kalamanhua.com](https://www.kalamanhua.com) | 1.4.1 | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockkalamanhua-v1.4.1.apk) |
 <!-- sources:end -->
 
-包子漫画扩展对应 **baozimh.org**；嬉皮漫画也称 **嬉皮漫畫 / Hipmh**，漫画柜对应 **Manhuagui**，漫小肆对应 **MXS**。各扩展直接访问对应漫画源站。
-
-<a id="compatibility"></a>
+包子漫画扩展对应 **baozimh.org**；嬉皮漫画也称 **嬉皮漫畫 / Hipmh**，漫画柜对应 **Manhuagui**，漫小肆对应 **MXS**。扩展直接请求各自源站的数据。
 
 ## 客户端兼容
 
-| 阅读器 | 当前发布包的适用范围 |
-| :--- | :--- |
-| **Tachimanga** | 当前主要测试客户端，提供 API 1.4 扩展 APK。 |
-| **Tachiyomi** | 适用于仍支持 1.4 扩展规范的版本。 |
-| **Mihon** | 适用于仍兼容 1.4 扩展的版本；要求 TachiyomiX 1.6 的版本不能使用当前 APK。 |
+| 阅读器 | 适用范围 |
+| --- | --- |
+| Tachimanga | 当前主要测试客户端，提供 API 1.4 扩展 APK。 |
+| Tachiyomi | 适用于仍支持 API 1.4 扩展的版本。 |
+| Mihon | 适用于仍兼容 API 1.4 扩展的版本。要求 TachiyomiX 1.6 的版本不能使用当前 APK。 |
 
-当前仓库只分发 **1.4 测试版**。将 Mihon 列在这里是为了说明兼容范围，不代表已经完成新版 1.6 适配。
+本仓库当前只发布 **1.4 测试版**，尚未发布 1.6 安装包。
 
-## 测试进展
+## 更新扩展
 
-| 检查项目 | 当前状态 |
-| :--- | :--- |
+1. 在客户端刷新扩展列表。
+2. 如果对应漫画源有新版本，选择更新。
+3. 更新后进入作品页面，下拉刷新简介和章节。
+
+仓库地址保持固定，后续版本继续使用已有包名、签名和源 ID。通常不需要重新添加仓库或逐次导入文件。
+
+## 常见问题
+
+### 安装后仍显示旧版本
+
+先核对已安装版本与[漫画源列表](#漫画源列表)是否一致。刷新仓库列表并重新打开客户端后，再检查更新。
+
+如果版本仍未变化，可在扩展页移除旧扩展，再从仓库重新安装。书架作品保留即可。
+
+### 简介、章节或图片加载失败
+
+先在浏览器中检查对应源站是否可以访问，再回到作品页面下拉刷新。源站可访问情况可能随网络、地区和网站结构变化。
+
+仍无法加载时，请提交 [Issue](https://github.com/dddinmx/MangaDock-extensions/issues/new)，并提供：
+
+- 阅读器名称与版本。
+- 漫画源名称和扩展版本。
+- 漫画名称或作品链接。
+- 失败的位置：搜索、简介、章节列表或图片。
+- 页面显示的错误信息；没有提示时也请说明。
+
+## 测试状态
+
+| 项目 | 当前情况 |
+| --- | --- |
 | APK 发布检查 | 已核对签名、包名、实际版本、下载链接及 SHA-256。 |
 | 嬉皮漫画 | 已进行真实接口和解析回归测试，Tachimanga 实机表现仍在反馈与修复中。 |
 | 卡拉漫画 | 源站实测返回 HTTP 403，目前只通过解析约定测试。 |
 | 其他漫画源 | 已发布独立测试包，仍需逐站验证手机端安装和阅读。 |
 
-查看 [构建检查记录](verification.json) 或 [SHA-256 校验清单](SHA256SUMS)。
+发布 APK 不代表所有站点已在手机端验证可读。可查看[构建检查记录](verification.json)和 [SHA-256 校验清单](SHA256SUMS)。
 
-<details>
-<summary><strong>已经手动安装过旧 APK，怎么更新？</strong></summary>
+## 相关文档
 
-添加仓库后，先刷新扩展列表并更新。包名、签名和源 ID 延续已有版本。
-
-如果安装界面仍显示旧版本，请在扩展页移除旧扩展后重新安装，再核对已安装版本与上方卡片是否一致。书架作品保留即可。
-
-</details>
-
-<details>
-<summary><strong>加载慢、章节空白或图片打不开，如何反馈？</strong></summary>
-
-请在 [Issues](https://github.com/dddinmx/MangaDock-extensions/issues/new) 提供：阅读器名称与版本、漫画源和扩展版本、漫画名称或链接，以及卡在哪一步（搜索、简介、章节或图片）。有错误提示时，请一并附上。
-
-站点可访问情况会随网络、地区和源站变化。发布 APK 不等于所有站点均已在手机端验证可读。
-
-</details>
-
----
-
-<p align="center">
-  <sub>独立安装 · 按源更新 · 持续测试</sub><br>
-  <sub><a href="https://tachimanga.app/help/guides/repositories.html">Tachimanga 仓库文档</a> · <a href="https://github.com/dddinmx/MangaDock-extensions/issues">反馈问题</a></sub>
-</p>
+- [Tachimanga 扩展开发指南](https://tachimanga.app/help/guides/extensions_guide.html)
+- [Tachimanga 扩展仓库说明](https://tachimanga.app/help/guides/repositories.html)
+- [当前仓库索引](index.json)
+- [问题反馈](https://github.com/dddinmx/MangaDock-extensions/issues)
