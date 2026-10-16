@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" width="100%" alt="中文漫画源扩展仓库 · Tachimanga / Tachiyomi / Mihon · Chinese Manga Extensions">
+  <img src="assets/banner.jpg" width="100%" alt="中文漫画源扩展仓库 · Tachimanga / Tachiyomi / Mihon · Chinese Manga Extensions">
 </p>
 
 <p align="center">
