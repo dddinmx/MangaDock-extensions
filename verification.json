@@ -89,25 +89,28 @@
     {
       "name": "番茄漫画",
       "module": "fanqie",
-      "file": "apk/tachiyomi-zh.mangadockfanqie-v1.4.1.apk",
-      "bytes": 42889,
-      "sha256": "feb60baa21a02257e69950d9c9ee0db5bbd1ace42dfddc119142f5ce3e97f5bf",
+      "file": "apk/tachiyomi-zh.mangadockfanqie-v1.4.2.apk",
+      "bytes": 80125,
+      "sha256": "65da692c2925620c1aa7d4443f6d646405f63b8fe40825954089d9f293dd7316",
       "certificate_sha256": "a3c69d1795e63b044b67c01197d9551cfc5ad5f6d46c496598cea4a8e1c3255f",
       "source_id": "7793459122584111744",
-      "defined_classes": 18,
+      "defined_classes": 79,
       "signature_verified": true,
       "live_page_parser_verified": true,
       "protection": {
-        "obfuscated_classes": 17,
+        "obfuscated_classes": 78,
         "protocol_literals_encrypted": true,
-        "debug_metadata_removed": true,
+        "original_source_filenames_removed": true,
+        "host_contract_verified": true,
+        "system_cipher_provider_required": false,
+        "compiler_generated_dex": true,
         "source_and_mapping_in_apk": false,
         "dex_checksums_verified": true
       }
     }
   ],
   "tests": {
-    "total": 66,
+    "total": 69,
     "failures": 0,
     "skipped": 0
   },
