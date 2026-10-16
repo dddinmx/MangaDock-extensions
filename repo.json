@@ -1,7 +1,7 @@
 {
   "meta": {
-    "name": "MangaDock Extensions",
-    "shortName": "MangaDock",
+    "name": "Chinese Manga Extensions",
+    "shortName": "MangaSources",
     "website": "https://github.com/dddinmx/MangaDock-extensions",
     "signingKeyFingerprint": "a3c69d1795e63b044b67c01197d9551cfc5ad5f6d46c496598cea4a8e1c3255f"
   }

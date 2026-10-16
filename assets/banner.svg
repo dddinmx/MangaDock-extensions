@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="432" viewBox="0 0 1280 432" role="img" aria-labelledby="title desc">
+<title id="title">中文漫画源扩展 · Tachimanga · Tachiyomi · Mihon</title>
+<desc id="desc">Chinese Manga Extensions. Six independent manga sources, one APK repository. API 1.4.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#191b1e"/><stop offset="1" stop-color="#101113"/></linearGradient>
+ <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#292c31"/><stop offset="1" stop-color="#1e2024"/></linearGradient>
+ <symbol id="book" viewBox="0 0 32 32"><path d="M16 7c-4-3-8-3-12-2v21c4-1 8-1 12 2 4-3 8-3 12-2V5c-4-1-8-1-12 2Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M16 7v21M8 11h4m-4 5h4m8-5h4m-4 5h4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></symbol>
+</defs>
+<rect width="1280" height="432" rx="28" fill="url(#bg)"/>
+<rect x="1" y="1" width="1278" height="430" rx="27" fill="none" stroke="#303237"/>
+<path d="M742 48v336" stroke="#303237"/>
+<path d="M68 44h48" stroke="#e9b678" stroke-width="3" stroke-linecap="round"/>
+<g font-family="Inter,DejaVu Sans,sans-serif">
+ <text x="68" y="81" fill="#a4a7ad" font-size="12" letter-spacing="3">YOUR READING. YOUR SOURCES.</text>
+ <text x="68" y="202" fill="#a4a7ad" font-size="17" letter-spacing="2.7">CHINESE MANGA EXTENSIONS</text>
+</g>
+<g font-family="Noto Sans CJK SC,MiSans,sans-serif">
+ <text x="65" y="158" fill="#f1f0ed" font-size="54" font-weight="700">中文漫画源扩展</text>
+ <text x="68" y="252" fill="#bcbfc5" font-size="20">一个仓库，连接你的阅读器。</text>
+</g>
+<g font-family="Inter,DejaVu Sans,sans-serif" font-size="14">
+ <rect x="68" y="288" width="155" height="36" rx="18" fill="#e9b678"/>
+ <text x="145.5" y="311" text-anchor="middle" fill="#222020" font-weight="600">Tachimanga</text>
+ <rect x="235" y="288" width="146" height="36" rx="18" fill="#24292a" stroke="#3d5049"/>
+ <text x="308" y="311" text-anchor="middle" fill="#a5d1ba">Tachiyomi</text>
+ <rect x="393" y="288" width="116" height="36" rx="18" fill="#252a32" stroke="#3c4c62"/>
+ <text x="451" y="311" text-anchor="middle" fill="#a9c1e2">Mihon</text>
+ <text x="68" y="386" fill="#737981" font-size="12" letter-spacing="1.6">6 SOURCES <tspan fill="#42464c"> / </tspan> APK REPOSITORY <tspan fill="#42464c"> / </tspan> API 1.4</text>
+ <text x="788" y="81" fill="#858b94" font-size="10" letter-spacing="2">INDEPENDENT SOURCE LIBRARY</text>
+</g>
+<g><rect x="788" y="105" width="116" height="112" rx="14" fill="url(#card)" stroke="#34383e"/>
+ <use href="#book" x="829" y="122" width="34" height="34" color="#d0c597"/>
+ <text x="846" y="188" text-anchor="middle" font-family="Noto Sans CJK SC,MiSans,sans-serif" font-size="16" font-weight="500" fill="#d4d5d8">瓜子</text></g>
+<g><rect x="920" y="105" width="116" height="112" rx="14" fill="url(#card)" stroke="#34383e"/>
+ <use href="#book" x="961" y="122" width="34" height="34" color="#a5d1ba"/>
+ <text x="978" y="188" text-anchor="middle" font-family="Noto Sans CJK SC,MiSans,sans-serif" font-size="16" font-weight="500" fill="#d4d5d8">小肆</text></g>
+<g><rect x="1052" y="105" width="116" height="112" rx="14" fill="url(#card)" stroke="#34383e"/>
+ <use href="#book" x="1093" y="122" width="34" height="34" color="#d4ad9b"/>
+ <text x="1110" y="188" text-anchor="middle" font-family="Noto Sans CJK SC,MiSans,sans-serif" font-size="16" font-weight="500" fill="#d4d5d8">包子</text></g>
+<g><rect x="788" y="233" width="116" height="112" rx="14" fill="url(#card)" stroke="#34383e"/>
+ <use href="#book" x="829" y="250" width="34" height="34" color="#b4acd7"/>
+ <text x="846" y="316" text-anchor="middle" font-family="Noto Sans CJK SC,MiSans,sans-serif" font-size="16" font-weight="500" fill="#d4d5d8">嬉皮</text></g>
+<g><rect x="920" y="233" width="116" height="112" rx="14" fill="url(#card)" stroke="#34383e"/>
+ <use href="#book" x="961" y="250" width="34" height="34" color="#9bbdd7"/>
+ <text x="978" y="316" text-anchor="middle" font-family="Noto Sans CJK SC,MiSans,sans-serif" font-size="16" font-weight="500" fill="#d4d5d8">漫画柜</text></g>
+<g><rect x="1052" y="233" width="116" height="112" rx="14" fill="url(#card)" stroke="#34383e"/>
+ <use href="#book" x="1093" y="250" width="34" height="34" color="#d5b775"/>
+ <text x="1110" y="316" text-anchor="middle" font-family="Noto Sans CJK SC,MiSans,sans-serif" font-size="16" font-weight="500" fill="#d4d5d8">卡拉</text></g>
+<circle cx="794" cy="383" r="3" fill="#a5d1ba"/><text x="808" y="387" font-family="Inter,DejaVu Sans,sans-serif" font-size="11" letter-spacing="1.1" fill="#8c929a">ADD ONCE. INSTALL INDIVIDUALLY.</text></svg>
