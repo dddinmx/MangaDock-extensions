@@ -77,9 +77,9 @@
     {
       "name": "包子漫画.cn",
       "module": "baozimhcn",
-      "file": "apk/tachiyomi-zh.mangadockbaozimhcn-v1.4.3.apk",
-      "bytes": 39002,
-      "sha256": "359a0681ec58273726c250d3d8d0d3d5e5f81b77b91baeb5ffbf1eb61e9ec080",
+      "file": "apk/tachiyomi-zh.mangadockbaozimhcn-v1.4.4.apk",
+      "bytes": 39917,
+      "sha256": "ee895f73d3e11aacc4aa3dcc3d204ea6f20cce4bd06261a34cf2ce8a20c18b09",
       "certificate_sha256": "a3c69d1795e63b044b67c01197d9551cfc5ad5f6d46c496598cea4a8e1c3255f",
       "source_id": "2687441910063968202",
       "defined_classes": 27,
@@ -110,7 +110,7 @@
     }
   ],
   "tests": {
-    "total": 71,
+    "total": 73,
     "failures": 0,
     "skipped": 0
   },

@@ -55,7 +55,7 @@ https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/index.min.js
 | 嬉皮漫画 | [m.hipmh.com](https://m.hipmh.com) | 1.4.4 | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockhipmh-v1.4.4.apk) | 国内网络 |
 | 漫小肆 | [mxs12.cc](https://mxs12.cc) | 1.4.3 | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockmxs-v1.4.3.apk) | 国内网络 |
 | 卡拉漫画 | [www.kalamanhua.com](https://www.kalamanhua.com) | 1.4.1 | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockkalamanhua-v1.4.1.apk) | 国内网络 |
-| 包子漫画.cn | [cn.bzmgcn.com](https://cn.bzmgcn.com) | 1.4.3 | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockbaozimhcn-v1.4.3.apk) | **国外网络** |
+| 包子漫画.cn | [cn.bzmgcn.com](https://cn.bzmgcn.com) | 1.4.4 | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockbaozimhcn-v1.4.4.apk) | **国外网络** |
 | 番茄漫画 | [fanqienovel.com](https://fanqienovel.com) | 1.4.2 | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockfanqie-v1.4.2.apk) | 国内网络 |
 <!-- sources:end -->
 
@@ -147,3 +147,10 @@ https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/index.min.js
 - 按指定入口改用 `https://cn.bzmgcn.com`，列表、搜索及新解析的章节请求均从该入口发起；显示名称同步改为“包子漫画.cn”。包名、签名和漫画源 ID 保持一致。
 - 源站目前会将该入口重定向到 `www.baozimh.com`；修正跳转后验证请求的目标地址，使验证 Cookie 在最终站点生效，并继续复用会话。
 - 通过 12 项回归测试，包含禁用客户端 Cookie 存储时的跨域跳转验证；从 cn 入口实测列表分页、搜索及《三體》《一人之下》《紹宋》的详情、目录、封面和章节首尾图片。Tachimanga 实机效果仍需设备验证。
+
+### 2026-10-17 · 包子漫画.cn 1.4.4
+
+- 针对详情和目录正常、打开章节 HTTP 403 的反馈，章节改为从 `cn.bzmgcn.com` 直达阅读页，省去 `/user/page_direct` 跳转到 `www.twmanga.com` 后的额外验证。源站目前仍会将 cn 入口跳转到 `www.baozimh.com`。
+- 保留目录中的章节标识，仅在请求时转换已有缓存链接，兼容旧版章节及 WebView 打开；图片请求携带实际阅读页作为 Referer。
+- 若仍遇到 403，错误信息区分章节页与图片，并显示响应域名，便于进一步定位。
+- 通过 14 项回归测试；直接调用扩展的章节请求、页面解析和图片请求接口，实测《三體》《一人之下》《紹宋》的首末章节共 6 章及完整首尾图片。Tachimanga 实机表现仍需设备验证。
