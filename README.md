@@ -72,7 +72,6 @@ https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/index.min.js
 ### 安装后仍显示旧版本
 
 先核对已安装版本与[漫画源列表](#漫画源列表)是否一致。刷新仓库列表并重新打开客户端后，再检查更新。
-
 如果版本仍未变化，可在扩展页移除旧扩展，再从仓库重新安装。书架作品保留即可。
 
 ### 简介、章节或图片加载失败
