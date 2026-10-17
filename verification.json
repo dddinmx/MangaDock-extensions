@@ -1,6 +1,6 @@
 {
   "target_api": "Tachiyomi 1.4",
-  "version": "1.4.4",
+  "version": "1.4.5",
   "apks": [
     {
       "name": "瓜子漫画",
@@ -77,12 +77,12 @@
     {
       "name": "包子漫画.cn",
       "module": "baozimhcn",
-      "file": "apk/tachiyomi-zh.mangadockbaozimhcn-v1.4.4.apk",
-      "bytes": 39917,
-      "sha256": "ee895f73d3e11aacc4aa3dcc3d204ea6f20cce4bd06261a34cf2ce8a20c18b09",
+      "file": "apk/tachiyomi-zh.mangadockbaozimhcn-v1.4.5.apk",
+      "bytes": 43628,
+      "sha256": "c55b20c2bb380660226bdaa0043efa68e14f6e0860bcc1abe3002457f810d02e",
       "certificate_sha256": "a3c69d1795e63b044b67c01197d9551cfc5ad5f6d46c496598cea4a8e1c3255f",
       "source_id": "2687441910063968202",
-      "defined_classes": 27,
+      "defined_classes": 33,
       "signature_verified": true,
       "live_page_parser_verified": true
     },
@@ -110,7 +110,7 @@
     }
   ],
   "tests": {
-    "total": 73,
+    "total": 79,
     "failures": 0,
     "skipped": 0
   },
