@@ -78,9 +78,6 @@ https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/index.min.js
 ### 简介、章节或图片加载失败
 
 先在浏览器中检查对应源站是否可以访问，再回到作品页面下拉刷新。源站可访问情况可能随网络、地区和网站结构变化。
-
-包子漫画.cn 支持 `cn.bzmgcn.com → www.baozimh.com` 与 `cn.cnbzmg.com → www.twbzmg.com` 两组链路。遇到 403、连接失败等问题时会自动尝试其他入口，记住成功线路并分别管理验证会话；旧版书架和章节链接可继续使用。
-
 仍无法加载时，请提交 [Issue](https://github.com/dddinmx/MangaDock-extensions/issues/new)，并提供：
 
 - 阅读器名称与版本。
