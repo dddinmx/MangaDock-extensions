@@ -55,7 +55,7 @@ https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/index.min.js
 | 嬉皮漫画 | [m.hipmh.com](https://m.hipmh.com) | 1.4.4 | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockhipmh-v1.4.4.apk) | 国内网络 |
 | 漫小肆 | [mxs12.cc](https://mxs12.cc) | 1.4.3 | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockmxs-v1.4.3.apk) | 国内网络 |
 | 卡拉漫画 | [www.kalamanhua.com](https://www.kalamanhua.com) | 1.4.1 | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockkalamanhua-v1.4.1.apk) | 国内网络 |
-| 包子漫画.com | [www.baozimh.com](https://www.baozimh.com) | 1.4.1 | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockbaozimhcn-v1.4.1.apk) | **国外网络** |
+| 包子漫画.com | [www.baozimh.com](https://www.baozimh.com) | 1.4.2 | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockbaozimhcn-v1.4.2.apk) | **国外网络** |
 | 番茄漫画 | [fanqienovel.com](https://fanqienovel.com) | 1.4.2 | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockfanqie-v1.4.2.apk) | 国内网络 |
 <!-- sources:end -->
 
@@ -135,3 +135,9 @@ https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/index.min.js
 - 加密运算改为扩展内纯 Java 实现，避免依赖客户端系统的 AES/GCM 支持；保留代码混淆与协议字符串保护。
 - 使用编译器直接生成的 DEX，保留客户端调用接口，并恢复主接口不可用时的备用接口请求。
 - 通过 18 项番茄回归测试及无系统 AES 环境测试；以标准请求与解析流程实测首页分页、搜索，以及《同居只为攻略你》《叛逆小厨娘》《我的右眼是神级计算机》的简介、目录、封面和章节首尾图片。Tachimanga 实际导入与阅读仍需设备验证。
+
+### 2026-10-17 · 包子漫画.com 1.4.2
+
+- 显示名称由“包子漫画.cn”改为“包子漫画.com”，对应实际使用的 `www.baozimh.com`；旧入口 `cn.baozimhcn.com` 当前会跳转到该地址。保持扩展包名和漫画源 ID，已有书架无需迁移。
+- 针对扩展列表 HTTP 403，补齐验证 Cookie 的保存、有效期检查和请求复用，兼容客户端不提供 Cookie 存储的情况。
+- 通过 11 项回归测试；在禁用客户端 Cookie 存储的环境下，实测列表两页、搜索、最新列表，以及《三體》《一人之下》《紹宋》的详情、目录、封面和章节首尾图片。Tachimanga 实机表现仍需设备验证。

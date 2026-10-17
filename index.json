@@ -114,17 +114,17 @@
     ]
   },
   {
-    "name": "Tachiyomi: 包子漫画.cn",
+    "name": "Tachiyomi: 包子漫画.com",
     "pkg": "eu.kanade.tachiyomi.extension.zh.mangadockbaozimhcn",
-    "apk": "tachiyomi-zh.mangadockbaozimhcn-v1.4.1.apk",
+    "apk": "tachiyomi-zh.mangadockbaozimhcn-v1.4.2.apk",
     "lang": "zh",
-    "code": 1,
-    "version": "1.4.1",
+    "code": 2,
+    "version": "1.4.2",
     "nsfw": 0,
     "contentWarning": 1,
     "sources": [
       {
-        "name": "包子漫画.cn",
+        "name": "包子漫画.com",
         "lang": "zh",
         "id": "2687441910063968202",
         "baseUrl": "https://www.baozimh.com",
