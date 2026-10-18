@@ -56,8 +56,12 @@ https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/index.min.js
 | 漫小肆 | [mxs12.cc](https://mxs12.cc) | 1.4.3 | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockmxs-v1.4.3.apk) | 国内网络 |
 | 卡拉漫画 | [www.kalamanhua.com](https://www.kalamanhua.com) | 1.4.1 | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockkalamanhua-v1.4.1.apk) | 国内网络 |
 | 包子漫画.cn | [cn.bzmgcn.com](https://cn.bzmgcn.com) / [cn.cnbzmg.com](https://cn.cnbzmg.com) | 1.4.5 | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockbaozimhcn-v1.4.5.apk) | 国内网络 |
+| 包子漫画.app | [appcn.baozimh.com](https://appcn.baozimh.com) | 1.4.1 | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockbaozimhapp-v1.4.1.apk) | 国内网络 |
 | 番茄漫画 | [fanqienovel.com](https://fanqienovel.com) | 1.4.2 | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockfanqie-v1.4.2.apk) | 国内网络 |
 <!-- sources:end -->
+
+> 包子漫画.app 走的是官方 App 接口（`/baozimhapp/*`），与包子漫画.cn、包子漫画.org 的网页解析是三个独立源，包名与数据互不相通，可以同时安装。
+> 该扩展使用独立签名身份，安装时若提示「未受信/签名不一致」，属于预期提示，确认安装即可。
 
 ## 客户端兼容
 

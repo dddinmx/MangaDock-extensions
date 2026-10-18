@@ -133,6 +133,25 @@
     ]
   },
   {
+    "name": "Tachiyomi: 包子漫画.app",
+    "pkg": "eu.kanade.tachiyomi.extension.zh.mangadockbaozimhapp",
+    "apk": "tachiyomi-zh.mangadockbaozimhapp-v1.4.1.apk",
+    "lang": "zh",
+    "code": 1,
+    "version": "1.4.1",
+    "nsfw": 0,
+    "contentWarning": 1,
+    "sources": [
+      {
+        "name": "包子漫画.app",
+        "lang": "zh",
+        "id": "8960219712623152374",
+        "baseUrl": "https://appcn.baozimh.com",
+        "versionId": 1
+      }
+    ]
+  },
+  {
     "name": "Tachiyomi: 番茄漫画",
     "pkg": "eu.kanade.tachiyomi.extension.zh.mangadockfanqie",
     "apk": "tachiyomi-zh.mangadockfanqie-v1.4.2.apk",
