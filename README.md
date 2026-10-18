@@ -1,12 +1,6 @@
 # Tachimanga ｜ Mihon ｜ Aidoku 中文漫画源扩展指南
 
-本仓库提供面向 **Tachimanga、Tachiyomi 和 Mihon** 的中文漫画源扩展插件（APK），以及面向 **Aidoku** 的扩展包（`.aix`）。
-
-## 使用前准备
-
-APK 发布包使用 **API 1.4**。安装前请确认阅读器仍支持这一扩展规范，具体范围见[客户端兼容](#客户端兼容)。
-
-Aidoku 使用独立的 `.aix` 扩展包，通过 [Aidoku 源列表](#aidoku-源列表)添加，与 APK 版本对应但完全独立。
+本仓库提供面向 **Tachimanga、 Aidoku 和 Mihon** 的中文漫画源扩展插件。
 
 ## 安装扩展
 
