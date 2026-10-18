@@ -11,12 +11,9 @@ Chinese manga / manhua source extensions for Tachimanga, Tachiyomi and compatibl
    - [添加仓库](#添加仓库)
    - [手动安装](#手动安装)
 3. [漫画源列表](#漫画源列表)
-4. [Aidoku 源列表](#aidoku-源列表)
-   - [添加 Source List](#添加-source-list)
-   - [手动安装 .aix](#手动安装-aix)
-5. [客户端兼容](#客户端兼容)
-6. [常见问题](#常见问题)
-7. [相关文档](#相关文档)
+4. [客户端兼容](#客户端兼容)
+5. [常见问题](#常见问题)
+6. [相关文档](#相关文档)
 
 ## 使用前准备
 
@@ -31,10 +28,16 @@ Aidoku 使用独立的 `.aix` 扩展包，通过 [Aidoku 源列表](#aidoku-源�
 
 ### 添加仓库
 
-复制以下仓库地址：
+**Tachimanga | Mihon 源列表地址：**
 
 ```text
 https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/index.min.json
+```
+
+**Aidoku 专用源列表地址：**
+
+```text
+https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/aidoku/index.min.json
 ```
 
 在 Tachimanga 中：
@@ -66,50 +69,11 @@ https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/index.min.js
 
 > 包子漫画.app 走的是官方 App 接口（`/baozimhapp/*`），与包子漫画.org 的网页解析是两个独立源，包名与数据互不相通，可以同时安装。
 
-## Aidoku 源列表
-
-Aidoku 的扩展是 Rust 编译的 WebAssembly 包（`.aix`），与上面的 APK 是两套完全不同的格式，`.aix` 不能装进 Tachimanga，APK 也不能装进 Aidoku。
-
-Aidoku 专用源列表地址：
-
-```text
-https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/aidoku/index.min.json
-```
-
-### 添加 Source List
-
-1. 打开 Aidoku，进入「设置 → 源列表（Source Lists）」。
-2. 点右上角「+」，粘贴上面的地址并保存。
-3. 回到「浏览 → 源」，等图标加载完成后即可添加需要的漫画源。
-
-不同 App 版本的入口名称可能略有不同，认准「Source Lists」这个设置项即可。
-
-### 手动安装 .aix
-
-也可以下载下表中的单个 `.aix`。源列表是纯静态文件，把 `index.json`（或 `index.min.json`）与 `sources/`、`icons/` 放在同一目录下，就能当自建源列表使用，例如：
-
-```text
-https://你的域名/mangadock/index.min.json
-```
-
-| 漫画源 | 站点 | 源 ID | 扩展包 |
-| --- | --- | --- | --- |
-| 瓜子漫画 | [www.guazimanhua.com](https://www.guazimanhua.com) | `zh.mangadockguazimanhua` | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/aidoku/sources/zh.mangadockguazimanhua-v1.aix) |
-| 包子漫画.org | [baozimh.org](https://baozimh.org) | `zh.mangadockbaozimhorg` | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/aidoku/sources/zh.mangadockbaozimhorg-v1.aix) |
-| 漫画柜 | [www.manhuagui.com](https://www.manhuagui.com) | `zh.mangadockmanhuagui` | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/aidoku/sources/zh.mangadockmanhuagui-v1.aix) |
-| 嬉皮漫画 | [m.hipmh.com](https://m.hipmh.com) | `zh.mangadockhipmh` | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/aidoku/sources/zh.mangadockhipmh-v1.aix) |
-| 漫小肆 | [mxs12.cc](https://mxs12.cc) | `zh.mangadockmxs` | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/aidoku/sources/zh.mangadockmxs-v1.aix) |
-| 卡拉漫画 | [www.kalamanhua.com](https://www.kalamanhua.com) | `zh.mangadockkalamanhua` | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/aidoku/sources/zh.mangadockkalamanhua-v1.aix) |
-| 包子漫画.app | [appcn.baozimh.com](https://appcn.baozimh.com) | `zh.mangadockbaozimhapp` | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/aidoku/sources/zh.mangadockbaozimhapp-v1.aix) |
-| 包子漫画.cn | [cn.bzmgcn.com](https://cn.bzmgcn.com) | `zh.mangadockbaozimhcn` | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/aidoku/sources/zh.mangadockbaozimhcn-v1.aix) |
-| 番茄漫画 | [fanqienovel.com](https://fanqienovel.com) | `zh.mangadockfanqie` | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/aidoku/sources/zh.mangadockfanqie-v1.aix) |
-
-> Aidoku 版的源 ID 带 `zh.mangadock` 前缀，与 APK 版的包名不是同一套标识，同一站点可以分别在两个客户端里各装一份。包子漫画.cn 目前只在 Aidoku 版提供；番茄漫画在 Aidoku 版里包含 argus/ladon 请求签名、章节正文与图片解密，链路比 APK 版更长，遇到加载失败请按[常见问题](#常见问题)附上信息反馈。
-
 ## 客户端兼容
 
 | 阅读器 | 适用范围 |
 | --- | --- |
+| [Aidoku](https://aidoku.app) | IOS自签客户端. |
 | [Tachimanga](https://tachimanga.app/) | 当前主要测试客户端. |
 | Tachiyomi | 适用于仍支持 API 1.4 扩展的版本. |
 | [Mihon](https://mihon.app/) | 适用于仍兼容 API 1.4 扩展的版本。要求 TachiyomiX 1.6 的版本不能使用扩展. |
