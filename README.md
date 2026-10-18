@@ -71,10 +71,6 @@ https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/index.min.js
 
 ## 常见问题
 
-### 包子漫画.cn 不见了
-
-该源已下架，不再提供更新。已经安装的可以继续使用，但不建议继续追更；建议改用 **包子漫画.org** 或 **包子漫画.app**。
-
 ### 安装后仍显示旧版本
 
 先核对已安装版本与[漫画源列表](#漫画源列表)是否一致。刷新仓库列表并重新打开客户端后，再检查更新。
