@@ -17,9 +17,6 @@ Chinese manga / manhua source extensions for Tachimanga, Tachiyomi and compatibl
 
 ## 使用前准备
 
-- 已安装 Tachimanga / Tachiyomi / Mihon / Aidoku 之一。
-- 设备可以访问 GitHub 下载地址和所选漫画源站。
-
 APK 发布包使用 **API 1.4**。安装前请确认阅读器仍支持这一扩展规范，具体范围见[客户端兼容](#客户端兼容)。
 
 Aidoku 使用独立的 `.aix` 扩展包，通过 [Aidoku 源列表](#aidoku-源列表)添加，与 APK 版本对应但代码完全独立。
@@ -39,14 +36,6 @@ https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/index.min.js
 ```text
 https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/aidoku/index.min.json
 ```
-
-在 Tachimanga 中：
-
-1. 打开「浏览」页面，进入「扩展」。
-2. 找到「扩展仓库」，添加上面的地址。
-3. 返回扩展列表并刷新。
-
-不同客户端版本的入口名称可能略有不同。
 
 ### 手动安装
 
@@ -96,11 +85,6 @@ https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/aidoku/index
 - 漫画名称或作品链接。
 - 失败的位置：搜索、简介、章节列表或图片。
 - 页面显示的错误信息；没有提示时也请说明。
-
-### Aidoku 里添加后看不到源
-
-先确认粘贴的是 Aidoku 源列表地址（`.../aidoku/index.min.json`），不是 Tachimanga / Mihon 的仓库地址。两者格式不同，填错会出现解析失败或列表为空。
-若列表能加载但图标空白，属于 raw.githubusercontent.com 访问受限，换网络或稍后刷新即可。
 
 ## 相关文档
 
