@@ -1,4 +1,4 @@
-# 中文漫画源扩展指南
+# Tachimanga ｜ Mihon ｜ Aidoku 中文漫画源扩展指南
 
 本仓库提供面向 **Tachimanga、Tachiyomi 和 Mihon** 的中文漫画源扩展插件。
 
