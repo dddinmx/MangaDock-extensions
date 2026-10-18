@@ -4,9 +4,9 @@
 		{
 			"id": "zh.mangadockbaozimhapp",
 			"name": "包子漫画.app",
-			"version": 1,
-			"iconURL": "icons/zh.mangadockbaozimhapp-v1.png",
-			"downloadURL": "sources/zh.mangadockbaozimhapp-v1.aix",
+			"version": 2,
+			"iconURL": "icons/zh.mangadockbaozimhapp-v2.png",
+			"downloadURL": "sources/zh.mangadockbaozimhapp-v2.aix",
 			"languages": [
 				"zh"
 			],
