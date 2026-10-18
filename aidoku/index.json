@@ -1,0 +1,140 @@
+{
+	"name": "MangaDock 中文漫画源",
+	"sources": [
+		{
+			"id": "zh.mangadockbaozimhapp",
+			"name": "包子漫画.app",
+			"version": 1,
+			"iconURL": "icons/zh.mangadockbaozimhapp-v1.png",
+			"downloadURL": "sources/zh.mangadockbaozimhapp-v1.aix",
+			"languages": [
+				"zh"
+			],
+			"contentRating": 0,
+			"altNames": null,
+			"baseUrl": "https://appcn.baozimh.com",
+			"minAppVersion": null,
+			"maxAppVersion": null
+		},
+		{
+			"id": "zh.mangadockbaozimhcn",
+			"name": "包子漫画.cn",
+			"version": 1,
+			"iconURL": "icons/zh.mangadockbaozimhcn-v1.png",
+			"downloadURL": "sources/zh.mangadockbaozimhcn-v1.aix",
+			"languages": [
+				"zh"
+			],
+			"contentRating": 0,
+			"altNames": null,
+			"baseUrl": "https://cn.bzmgcn.com",
+			"minAppVersion": null,
+			"maxAppVersion": null
+		},
+		{
+			"id": "zh.mangadockbaozimhorg",
+			"name": "包子漫画.org",
+			"version": 1,
+			"iconURL": "icons/zh.mangadockbaozimhorg-v1.png",
+			"downloadURL": "sources/zh.mangadockbaozimhorg-v1.aix",
+			"languages": [
+				"zh"
+			],
+			"contentRating": 0,
+			"altNames": null,
+			"baseUrl": "https://baozimh.org",
+			"minAppVersion": null,
+			"maxAppVersion": null
+		},
+		{
+			"id": "zh.mangadockfanqie",
+			"name": "番茄漫画",
+			"version": 1,
+			"iconURL": "icons/zh.mangadockfanqie-v1.png",
+			"downloadURL": "sources/zh.mangadockfanqie-v1.aix",
+			"languages": [
+				"zh"
+			],
+			"contentRating": 0,
+			"altNames": null,
+			"baseUrl": "https://fanqienovel.com",
+			"minAppVersion": null,
+			"maxAppVersion": null
+		},
+		{
+			"id": "zh.mangadockguazimanhua",
+			"name": "瓜子漫画",
+			"version": 1,
+			"iconURL": "icons/zh.mangadockguazimanhua-v1.png",
+			"downloadURL": "sources/zh.mangadockguazimanhua-v1.aix",
+			"languages": [
+				"zh"
+			],
+			"contentRating": 0,
+			"altNames": null,
+			"baseUrl": "https://www.guazimanhua.com",
+			"minAppVersion": null,
+			"maxAppVersion": null
+		},
+		{
+			"id": "zh.mangadockhipmh",
+			"name": "嬉皮漫画",
+			"version": 1,
+			"iconURL": "icons/zh.mangadockhipmh-v1.png",
+			"downloadURL": "sources/zh.mangadockhipmh-v1.aix",
+			"languages": [
+				"zh"
+			],
+			"contentRating": 0,
+			"altNames": null,
+			"baseUrl": "https://m.hipmh.com",
+			"minAppVersion": null,
+			"maxAppVersion": null
+		},
+		{
+			"id": "zh.mangadockkalamanhua",
+			"name": "卡拉漫画",
+			"version": 1,
+			"iconURL": "icons/zh.mangadockkalamanhua-v1.png",
+			"downloadURL": "sources/zh.mangadockkalamanhua-v1.aix",
+			"languages": [
+				"zh"
+			],
+			"contentRating": 1,
+			"altNames": null,
+			"baseUrl": "https://www.kalamanhua.com",
+			"minAppVersion": null,
+			"maxAppVersion": null
+		},
+		{
+			"id": "zh.mangadockmanhuagui",
+			"name": "漫画柜",
+			"version": 1,
+			"iconURL": "icons/zh.mangadockmanhuagui-v1.png",
+			"downloadURL": "sources/zh.mangadockmanhuagui-v1.aix",
+			"languages": [
+				"zh"
+			],
+			"contentRating": 0,
+			"altNames": null,
+			"baseUrl": "https://www.manhuagui.com",
+			"minAppVersion": null,
+			"maxAppVersion": null
+		},
+		{
+			"id": "zh.mangadockmxs",
+			"name": "漫小肆",
+			"version": 1,
+			"iconURL": "icons/zh.mangadockmxs-v1.png",
+			"downloadURL": "sources/zh.mangadockmxs-v1.aix",
+			"languages": [
+				"zh"
+			],
+			"contentRating": 1,
+			"altNames": null,
+			"baseUrl": "https://mxs12.cc",
+			"minAppVersion": null,
+			"maxAppVersion": null
+		}
+	]
+}

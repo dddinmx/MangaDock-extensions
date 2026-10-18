@@ -1,4 +1,5 @@
 *.apk binary
+*.aix binary
 *.png binary
 *.json text eol=lf
 *.md text eol=lf
