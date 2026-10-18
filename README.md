@@ -74,7 +74,7 @@ https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/aidoku/index
 | 阅读器 | 适用范围 |
 | --- | --- |
 | [Aidoku](https://aidoku.app) | IOS自签客户端. |
-| [Tachimanga](https://tachimanga.app/) | 当前主要测试客户端. |
+| [Tachimanga](https://tachimanga.app/) | IOS客户端. |
 | Tachiyomi | 适用于仍支持 API 1.4 扩展的版本. |
 | [Mihon](https://mihon.app/) | 适用于仍兼容 API 1.4 扩展的版本。要求 TachiyomiX 1.6 的版本不能使用扩展. |
 | [Aidoku](https://aidoku.app/) | 使用 `.aix` 扩展，需添加 [Aidoku 源列表](#aidoku-源列表)；APK 扩展无法安装. |
