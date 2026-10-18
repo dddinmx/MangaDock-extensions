@@ -77,9 +77,9 @@
     {
       "name": "包子漫画.app",
       "module": "baozimhapp",
-      "file": "apk/tachiyomi-zh.mangadockbaozimhapp-v1.4.2.apk",
+      "file": "apk/tachiyomi-zh.mangadockbaozimhapp-v1.4.3.apk",
       "bytes": 20981,
-      "sha256": "308fa18c64289f1b5e66cd6107daaac1547fbd2f5367a4f559bcae5b2d65e464",
+      "sha256": "66bb499e06cefac50cac1e853fdca0fac33ef020fbf27d11143fff4d2089d21b",
       "certificate_sha256": "8a99f8d1fd6e888c79cd9eec6371e46c82676404148f54a915c779761576ff48",
       "source_id": "8960219712623152374",
       "defined_classes": 2,
