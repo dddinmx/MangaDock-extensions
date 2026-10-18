@@ -94,9 +94,9 @@
 		{
 			"id": "zh.mangadockkalamanhua",
 			"name": "卡拉漫画",
-			"version": 1,
-			"iconURL": "icons/zh.mangadockkalamanhua-v1.png",
-			"downloadURL": "sources/zh.mangadockkalamanhua-v1.aix",
+			"version": 2,
+			"iconURL": "icons/zh.mangadockkalamanhua-v2.png",
+			"downloadURL": "sources/zh.mangadockkalamanhua-v2.aix",
 			"languages": [
 				"zh"
 			],
