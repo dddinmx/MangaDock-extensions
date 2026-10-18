@@ -60,7 +60,6 @@ https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/index.min.js
 <!-- sources:end -->
 
 > 包子漫画.app 走的是官方 App 接口（`/baozimhapp/*`），与包子漫画.org 的网页解析是两个独立源，包名与数据互不相通，可以同时安装。
-> 该扩展使用独立签名身份，安装时若提示「未受信/签名不一致」，属于预期提示，确认安装即可。
 
 ## 客户端兼容
 
