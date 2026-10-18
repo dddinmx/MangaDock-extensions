@@ -11,9 +11,10 @@ Chinese manga / manhua source extensions for Tachimanga, Tachiyomi and compatibl
    - [添加仓库](#添加仓库)
    - [手动安装](#手动安装)
 3. [漫画源列表](#漫画源列表)
-4. [客户端兼容](#客户端兼容)
-5. [常见问题](#常见问题)
-6. [相关文档](#相关文档)
+4. [Aidoku 源列表](#aidoku-源列表)
+5. [客户端兼容](#客户端兼容)
+6. [常见问题](#常见问题)
+7. [相关文档](#相关文档)
 
 ## 使用前准备
 
@@ -58,6 +59,19 @@ https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/aidoku/index
 
 > 包子漫画.app 走的是官方 App 接口（`/baozimhapp/*`），与包子漫画.org 的网页解析是两个独立源，包名与数据互不相通，可以同时安装。
 
+## Aidoku 源列表
+
+`.aix` 扩展包通过「设置 → 源列表（Source Lists）」添加，地址见上方「添加仓库」。
+
+添加时提示「提供来源列表网址无效」，多半是当前网络访问不了 raw.githubusercontent.com，改用 jsDelivr 镜像（扩展包与图标同样走镜像，无需其它设置）：
+
+```text
+https://cdn.jsdelivr.net/gh/dddinmx/MangaDock-extensions@main/aidoku/index.min.json
+```
+
+备用镜像：把 `cdn` 换成 `fastly.jsdelivr.net` 或 `testingcf.jsdelivr.net`。镜像对 main 分支有约 12 小时缓存。
+判断方法：先用 Safari 打开地址，能看到 JSON 内容说明网络没问题，回 Aidoku 重试即可。
+
 ## 客户端兼容
 
 | 阅读器 | 适用范围 |
@@ -66,7 +80,6 @@ https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/aidoku/index
 | [Tachimanga](https://tachimanga.app/) | IOS客户端. |
 | Tachiyomi | 适用于仍支持 API 1.4 扩展的版本. |
 | [Mihon](https://mihon.app/) | 适用于仍兼容 API 1.4 扩展的版本。要求 TachiyomiX 1.6 的版本不能使用扩展. |
-| [Aidoku](https://aidoku.app/) | 使用 `.aix` 扩展，需添加 [Aidoku 源列表](#aidoku-源列表)；APK 扩展无法安装. |
 
 ## 常见问题
 
