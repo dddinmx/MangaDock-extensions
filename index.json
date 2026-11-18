@@ -78,10 +78,10 @@
   {
     "name": "Tachiyomi: 卡拉漫画",
     "pkg": "eu.kanade.tachiyomi.extension.zh.mangadockkalamanhua",
-    "apk": "tachiyomi-zh.mangadockkalamanhua-v1.4.1.apk",
+    "apk": "tachiyomi-zh.mangadockkalamanhua-v1.4.2.apk",
     "lang": "zh",
-    "code": 1,
-    "version": "1.4.1",
+    "code": 2,
+    "version": "1.4.2",
     "nsfw": 1,
     "contentWarning": 2,
     "sources": [
@@ -89,7 +89,7 @@
         "name": "卡拉漫画",
         "lang": "zh",
         "id": "8821044750857838761",
-        "baseUrl": "https://www.kalamanhua.com",
+        "baseUrl": "https://www.kalamhw.com",
         "versionId": 1
       }
     ]

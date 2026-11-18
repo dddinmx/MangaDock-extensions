@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="eu.kanade.tachiyomi.extension.zh.mangadockkalamanhua"
+    android:versionCode="2"
+    android:versionName="1.4.2">
+    <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="34" />
+    <uses-feature android:name="tachiyomi.extension" android:required="false" />
+    <application android:label="Tachiyomi: 卡拉漫画" android:icon="@drawable/ic_launcher"
+        android:hasCode="true" android:allowBackup="false">
+        <meta-data android:name="tachiyomi.extension.class" android:value=".Kalamanhua" />
+        <meta-data android:name="tachiyomi.extension.nsfw" android:value="1" />
+    </application>
+</manifest>

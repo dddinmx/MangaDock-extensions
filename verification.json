@@ -53,14 +53,19 @@
     {
       "name": "卡拉漫画",
       "module": "kalamanhua",
-      "file": "apk/tachiyomi-zh.mangadockkalamanhua-v1.4.1.apk",
-      "bytes": 33717,
-      "sha256": "4ded093eb29d44d323a157f4cb6ef475a894b417a1c9cb81cf62a5ffdb51083e",
-      "certificate_sha256": "a3c69d1795e63b044b67c01197d9551cfc5ad5f6d46c496598cea4a8e1c3255f",
+      "file": "apk/tachiyomi-zh.mangadockkalamanhua-v1.4.2.apk",
+      "bytes": 20949,
+      "sha256": "b82b6899f114fa10d8372e64a56023764f9eaf4d1f6ad5401fb8d019a19d2ae2",
+      "certificate_sha256": "d8dfba91866d580a7ad1ed21606de8853e54ae8ecf541d9c52bdcaa20c2fcf6d",
       "source_id": "8821044750857838761",
-      "defined_classes": 20,
+      "defined_classes": 1,
       "signature_verified": true,
-      "live_page_parser_verified": false
+      "live_page_parser_verified": true,
+      "live_verification": {
+        "mode": "JVM integration using signed APK DEX and extension API 1.4 host stubs",
+        "search_queries": 3,
+        "sampled_page_images_decoded": 6
+      }
     },
     {
       "name": "包子漫画.app",
@@ -103,7 +108,6 @@
     "skipped": 0
   },
   "limitations": [
-    "Tachimanga device import and reading have not been tested.",
-    "Kalamanhua live origin returns HTTP 403; parser contract tests only."
+    "Tachimanga device import and reading have not been tested."
   ]
 }
