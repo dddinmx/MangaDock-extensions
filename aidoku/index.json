@@ -107,21 +107,6 @@
 			"maxAppVersion": null
 		},
 		{
-			"id": "zh.mangadockmanhuagui",
-			"name": "漫画柜",
-			"version": 1,
-			"iconURL": "icons/zh.mangadockmanhuagui-v1.png",
-			"downloadURL": "sources/zh.mangadockmanhuagui-v1.aix",
-			"languages": [
-				"zh"
-			],
-			"contentRating": 0,
-			"altNames": null,
-			"baseUrl": "https://www.manhuagui.com",
-			"minAppVersion": null,
-			"maxAppVersion": null
-		},
-		{
 			"id": "zh.mangadockmxs",
 			"name": "漫小肆",
 			"version": 1,

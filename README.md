@@ -24,18 +24,21 @@ https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/aidoku/index
 
 ## 漫画源列表
 
+下表列出 Tachimanga 和 Mihon 的 APK 版本。
+
 <!-- sources:start -->
 | 漫画源 | 站点 | 扩展版本 | APK | 网络 |
 | --- | --- | --- | --- | --- |
 | 瓜子漫画 | [www.guazimanhua.com](https://www.guazimanhua.com) | 1.4.1 | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockguazimanhua-v1.4.1.apk) | 国内网络 |
 | 包子漫画.org | [baozimh.org](https://baozimh.org) | 1.4.3 | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockbaozimhorg-v1.4.3.apk) | 国内网络 |
-| 漫画柜 | [www.manhuagui.com](https://www.manhuagui.com) | 1.4.3 | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockmanhuagui-v1.4.3.apk) | **国外网络** |
 | 嬉皮漫画 | [m.hipmh.com](https://m.hipmh.com) | 1.4.4 | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockhipmh-v1.4.4.apk) | 国内网络 |
 | 漫小肆 | [mxs12.cc](https://mxs12.cc) | 1.4.3 | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockmxs-v1.4.3.apk) | 国内网络 |
 | 卡拉漫画 | [www.kalamanhua.com](https://www.kalamanhua.com) | 1.4.1 | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockkalamanhua-v1.4.1.apk) | 国内网络 |
 | 包子漫画.app | [appcn.baozimh.com](https://appcn.baozimh.com) | 1.4.5 | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockbaozimhapp-v1.4.5.apk) | 国内网络 |
 | 番茄漫画 | [fanqienovel.com](https://fanqienovel.com) | 1.4.2 | [下载](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/apk/tachiyomi-zh.mangadockfanqie-v1.4.2.apk) | 国内网络 |
 <!-- sources:end -->
+
+**Aidoku 卡拉漫画 v3** 已切换到 [kalamhw.com](https://www.kalamhw.com)，并修复关键词搜索、分页和章节解析。刷新 [Aidoku 源列表](aidoku/index.json)即可更新，也可[下载 v3 安装包](https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/aidoku/sources/zh.mangadockkalamanhua-v3.aix)。
 
 > 包子漫画.app 走的是官方 App 接口（`/baozimhapp/*`），与包子漫画.org 的网页解析是两个独立源，包名与数据互不相通，可以同时安装。
 
@@ -51,7 +54,7 @@ https://raw.githubusercontent.com/dddinmx/MangaDock-extensions/main/aidoku/index
 
 ### 安装后仍显示旧版本
 
-先核对已安装版本与[漫画源列表](#漫画源列表)是否一致。刷新仓库列表并重新打开客户端后，再检查更新。
+先核对已安装版本与[漫画源列表](#漫画源列表)或 [Aidoku 源列表](aidoku/index.json)是否一致。刷新仓库列表并重新打开客户端后，再检查更新。
 如果版本仍未变化，可在扩展页移除旧扩展，再从仓库重新安装。书架作品保留即可。
 
 ### 简介、章节或图片加载失败

@@ -76,25 +76,6 @@
     ]
   },
   {
-    "name": "Tachiyomi: 漫画柜",
-    "pkg": "eu.kanade.tachiyomi.extension.zh.mangadockmanhuagui",
-    "apk": "tachiyomi-zh.mangadockmanhuagui-v1.4.3.apk",
-    "lang": "zh",
-    "code": 3,
-    "version": "1.4.3",
-    "nsfw": 0,
-    "contentWarning": 1,
-    "sources": [
-      {
-        "name": "漫画柜",
-        "lang": "zh",
-        "id": "4509695705513537138",
-        "baseUrl": "https://www.manhuagui.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
     "name": "Tachiyomi: 卡拉漫画",
     "pkg": "eu.kanade.tachiyomi.extension.zh.mangadockkalamanhua",
     "apk": "tachiyomi-zh.mangadockkalamanhua-v1.4.1.apk",
