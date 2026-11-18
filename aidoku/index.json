@@ -17,21 +17,6 @@
 			"maxAppVersion": null
 		},
 		{
-			"id": "zh.mangadockbaozimhcn",
-			"name": "包子漫画.cn",
-			"version": 1,
-			"iconURL": "icons/zh.mangadockbaozimhcn-v1.png",
-			"downloadURL": "sources/zh.mangadockbaozimhcn-v1.aix",
-			"languages": [
-				"zh"
-			],
-			"contentRating": 0,
-			"altNames": null,
-			"baseUrl": "https://cn.bzmgcn.com",
-			"minAppVersion": null,
-			"maxAppVersion": null
-		},
-		{
 			"id": "zh.mangadockbaozimhorg",
 			"name": "包子漫画.org",
 			"version": 1,
