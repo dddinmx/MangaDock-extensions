@@ -1,0 +1,17 @@
+[package]
+name = "mangadock-kalamanhua"
+version = "0.3.0"
+edition = "2024"
+publish = false
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+aidoku = { git = "https://github.com/Aidoku/aidoku-rs", rev = "ae6485e3c14ecd1fd5497d170eae884c68d04a87" }
+serde_json = { version = "1.0", default-features = false, features = ["alloc"] }
+
+[profile.release]
+opt-level = "z"
+lto = true
+strip = true

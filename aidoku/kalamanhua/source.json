@@ -1,0 +1,22 @@
+{
+  "info": {
+    "id": "zh.mangadockkalamanhua",
+    "name": "卡拉漫画",
+    "version": 3,
+    "url": "https://www.kalamhw.com",
+    "contentRating": 1,
+    "languages": [
+      "zh"
+    ]
+  },
+  "listings": [
+    {
+      "id": "popular",
+      "name": "热门"
+    }
+  ],
+  "config": {
+    "supportsTagSearch": false,
+    "maximumParallelRequests": 4
+  }
+}
